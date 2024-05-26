@@ -23,4 +23,7 @@ Listar todos os ativos e os funcionários aos quais estão vinculados.
  */
 public class SistemaControleBensTI {
 
+    private List<AtivoTI> ativos = new ArrayList<>();
+    private List<Funcionario> funcionarios = new ArrayList<>();
+    private Map<AtivoTI, Funcionario> vinculos = new HashMap<>();
 }
