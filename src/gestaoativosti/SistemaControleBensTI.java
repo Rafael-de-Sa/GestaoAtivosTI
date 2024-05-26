@@ -26,4 +26,13 @@ public class SistemaControleBensTI {
     private List<AtivoTI> ativos = new ArrayList<>();
     private List<Funcionario> funcionarios = new ArrayList<>();
     private Map<AtivoTI, Funcionario> vinculos = new HashMap<>();
+
+    public void adicionarAtivos(AtivoTI ativo) {
+        ativos.add(ativo);
+    }
+
+    public void adicionarFuncionario(Funcionario funcionario) {
+        funcionarios.add(funcionario);
+    }
+
 }
