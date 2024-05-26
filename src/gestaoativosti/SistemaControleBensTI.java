@@ -4,6 +4,10 @@
  */
 package gestaoativosti;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -18,4 +22,5 @@ Vincular um ativo a um funcionário.
 Listar todos os ativos e os funcionários aos quais estão vinculados.
  */
 public class SistemaControleBensTI {
+
 }
