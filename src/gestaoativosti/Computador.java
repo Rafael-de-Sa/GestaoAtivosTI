@@ -12,8 +12,9 @@ public class Computador extends AtivoTI {
 
     private String especificacoes;
 
-    public Computador(String nome, int id) {
+    public Computador(String nome, int id, String especificacoes) {
         super(nome, id);
+        this.especificacoes = especificacoes;
     }
 
     @Override
