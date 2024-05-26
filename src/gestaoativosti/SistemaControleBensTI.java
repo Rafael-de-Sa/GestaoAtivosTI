@@ -43,4 +43,22 @@ public class SistemaControleBensTI {
         }
     }
 
+    private AtivoTI buscarAtivoPorId(int id) {
+        for (AtivoTI ativo : ativos) {
+            if (ativo.getId() == id) {
+                return ativo;
+            }
+        }
+        return null;
+    }
+
+    private Funcionario buscarFuncionarioPorId(int id) {
+        for (Funcionario funcionario : funcionarios) {
+            if (funcionario.getId() == id) {
+                return funcionario;
+            }
+        }
+        return null;
+    }
+
 }
