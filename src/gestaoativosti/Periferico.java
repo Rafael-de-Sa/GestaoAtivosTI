@@ -12,8 +12,9 @@ public class Periferico extends AtivoTI {
 
     private String tipo;
 
-    public Periferico(String nome, int id) {
+    public Periferico(String tipo, String nome, int id) {
         super(nome, id);
+        this.tipo = tipo;
     }
 
     public String getTipoPeriferico() {
