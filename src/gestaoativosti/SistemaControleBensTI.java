@@ -61,4 +61,13 @@ public class SistemaControleBensTI {
         return null;
     }
 
+    public void listarAtivos() {
+        for (Map.Entry<AtivoTI, Funcionario> entry : vinculos.entrySet()) {
+            AtivoTI ativo = entry.getKey();
+            Funcionario funcionario = entry.getValue();
+            System.out.println("Ativo: " + ativo.getNome() + " (" + ativo.getTipo() + ") - Vinculado ao funcionário: " + funcionario.getNome());
+
+        }
+    }
+
 }
