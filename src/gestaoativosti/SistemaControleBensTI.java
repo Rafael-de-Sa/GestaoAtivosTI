@@ -35,4 +35,12 @@ public class SistemaControleBensTI {
         funcionarios.add(funcionario);
     }
 
+    public void vincularAtivoFuncionario(int idAtivo, int idFuncionario) {
+        AtivoTI ativo = buscarAtivoPorId(idAtivo);
+        Funcionario funcionario = buscarFuncionarioPorId(idFuncionario);
+        if (ativo != null && funcionario != null) {
+            vinculos.put(ativo, funcionario);
+        }
+    }
+
 }
